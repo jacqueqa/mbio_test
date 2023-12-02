@@ -1,0 +1,25 @@
+{
+  "name": "mbio_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jacqueqa/js_mbio",
+  "author": "Jacqueline Pereira",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@playwright/test": "^1.34.3",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.41.0",
+    "eslint-plugin-playwright": "^0.12.0"
+  },
+  "scripts": {
+    "test:e2e": "yarn playwright test --project e2e --config playwright.config.js",
+    "test:e2e:ci": "yarn test:e2e --workers 2"
+  },
+  "keywords": [
+    "Plawright",
+    "Test Automation",
+    "JavaScript"
+  ]
+}

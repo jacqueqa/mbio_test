@@ -1,0 +1,30 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+reports/
+test-results/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dotenv environment variables file
+.env
+
+# Dependency directories
+node_modules/
+.idea/
+
+## Mac crap
+.DS_Store
+.vscode/
+
+## Others
+tmp/
+*.tmp
+*.swp
