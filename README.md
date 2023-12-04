@@ -53,6 +53,9 @@ The project also uses [Yarn](https://yarnpkg.com/), if yout don't have, please f
 - [x] Fill the “Contact Details and Account Creation” form with invalid data. (e.g. with an invalid email format)
 - [x] Click "Proceed" and validate the error.
 
+      ![image](https://github.com/jacqueqa/mbio_test/assets/77998671/0a0d1d92-73b2-48f0-bcd1-5a0bce98a0b3)
+
+
 
 -----------------------
 
