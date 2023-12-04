@@ -8,7 +8,6 @@ For this project the following stac was used
 - JavaScript
 - Docker
 - Playwright
-- Allure
 
 **NOTE:**  Windows as OS with WSL
 
@@ -35,6 +34,7 @@ The project also uses [Yarn](https://yarnpkg.com/), if yout don't have, please f
 
 - Install dependencies: `yarn install`
 - Run End-to-end tests: `yarn test:e2e`
+- Run End-to-end tests with html report: `yarn test:e2e:html`
 
 -----------------------
 

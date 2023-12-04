@@ -4,6 +4,7 @@ process.env.PLAYWRIGHT_EXPERIMENTAL_FEATURES = '1'
 
 module.exports = {
   retries: process.env.CI ? 1 : 0,
+  reporter: 'list',
   projects: [
     {
       name: 'e2e',
@@ -27,9 +28,6 @@ module.exports = {
           headless: true
         }
       }
-    },
-    {
-      reporter: 'allure-playwright'
     }
   ]
 }
