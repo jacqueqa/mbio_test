@@ -14,8 +14,8 @@
     "playwright": "^1.40.0"
   },
   "scripts": {
-    "test:e2e": "yarn playwright test --project e2e --config playwright.config.js",
-    "test:e2e:html": "yarn playwright test --project e2e --config playwright.config.js --reporter=html && yarn playwright show-report",
+    "test:e2e": "yarn playwright test --config playwright.config.js",
+    "test:e2e:html": "yarn playwright test --config playwright.config.js --reporter=html && yarn playwright show-report",
     "test:e2e:ci": "yarn test:e2e --workers 2"
   },
   "keywords": [
