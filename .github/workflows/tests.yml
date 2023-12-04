@@ -24,6 +24,11 @@ jobs:
         run: yarn test:e2e
         env:
           FORCE_COLOR: 2
+          MB_DEMO_URL: "https://shop.mercedes-benz.com/en-au/shop/vehicle/srp/demo"
+          MB_USED_URL: "https://shop.mercedes-benz.com/en-au/shop/vehicle/srp/used"
+          MB_CAR_PAGE_URL: "https://shop.mercedes-benz.com/en-au/shop/vehicle/pdp/AU2300080929T"
+          MB_USED_CAR_WITH_FILTER_URL: "https://shop.mercedes-benz.com/en-au/shop/vehicle/srp/used?sort=relevance-ucos&assortment=vehicle&color_text="
+          MB_USED_CAR_WITH_FILTER_AND_SORT_URL: "https://shop.mercedes-benz.com/en-au/shop/vehicle/srp/used?sort=price-desc-ucos&assortment=vehicle&color_text=BRILLANTBLUE%20metallic"
 
       - name: Save screenshots and trace in case of failure
         if: failure()
