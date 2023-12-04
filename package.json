@@ -16,7 +16,7 @@
   "scripts": {
     "test:e2e": "yarn playwright test --config playwright.config.js",
     "test:e2e:html": "yarn playwright test --config playwright.config.js --reporter=html && yarn playwright show-report",
-    "test:e2e:ci": "yarn test:e2e --workers 3"
+    "test:e2e:ci": "yarn test:e2e --workers 2"
   },
   "keywords": [
     "Plawright",
