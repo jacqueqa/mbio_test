@@ -28,3 +28,4 @@ node_modules/
 tmp/
 *.tmp
 *.swp
+carData.txt

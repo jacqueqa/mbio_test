@@ -1,4 +1,3 @@
-const { expect } = require('@playwright/test')
 require('dotenv').config({ path: '.env' })
 
 process.env.PLAYWRIGHT_EXPERIMENTAL_FEATURES = '1'
@@ -11,7 +10,7 @@ module.exports = {
       outputDir: 'test-results',
       testMatch: '**/*.spec.js',
       use: {
-        baseURL: process.env.MB_HOMEPAGE,
+        baseURL: process.env.MB_DEMO_URL,
         browsers: ['chromium', 'firefox'],
         viewport: { width: 1440, height: 900 },
         screenshot: 'only-on-failure',
@@ -28,6 +27,9 @@ module.exports = {
           headless: true
         }
       }
+    },
+    {
+      reporter: 'allure-playwright'
     }
   ]
 }

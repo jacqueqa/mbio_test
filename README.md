@@ -3,13 +3,14 @@
 
 Repository with exercise on automated tests for MB.io using **[Playwright](https://playwright.dev/)**.
 
-Tools:
+For this project the following stac was used
 
-- docker
-- playwright
-- faker
+- JavaScript
+- Docker
+- Playwright
+- Allure
 
-**NOTE:** Used : JavaScript for coding || Windows as OS with WSL
+**NOTE:**  Windows as OS with WSL
 
 -----------------------
 
@@ -22,6 +23,12 @@ Make sure to have the correct Node version installed, which can be found in `.nv
 ### Yarn
 
 The project also uses [Yarn](https://yarnpkg.com/), if yout don't have, please follow the  [installation steps](https://classic.yarnpkg.com/lang/en/docs/install/).
+
+## To run using Docker
+
+- Perform all the tests on the container `docker-compose up`
+- To perform the tests one by one using the docker build: `docker-compose up -d` 
+- To teardown `docker-compose down`
 
 
 ## Running locally

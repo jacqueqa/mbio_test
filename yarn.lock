@@ -39,11 +39,6 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.55.0.tgz#b721d52060f369aa259cf97392403cb9ce892ec6"
   integrity sha512-qQfo2mxH5yVom1kacMtZZJFVdW+E70mqHMJvVg6WTLo+VBuQJ4TojZlfWBjK0ve5BdEeNAVxOsl/nvNMpJOaJA==
 
-"@faker-js/faker@^8.0.2":
-  version "8.3.1"
-  resolved "https://registry.yarnpkg.com/@faker-js/faker/-/faker-8.3.1.tgz#7753df0cb88d7649becf984a96dd1bd0a26f43e3"
-  integrity sha512-FdgpFxY6V6rLZE9mmIBb9hM0xpfvQOSNOLnzolzKwsE1DH+gC7lEKV1p1IbR0lAYyvYd5a4u3qWJzowUkw1bIw==
-
 "@humanwhocodes/config-array@^0.11.13":
   version "0.11.13"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.13.tgz#075dc9684f40a531d9b26b0822153c1e832ee297"
@@ -84,7 +79,7 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@playwright/test@^1.34.3":
+"@playwright/test@^1.40.1":
   version "1.40.1"
   resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.40.1.tgz#9e66322d97b1d74b9f8718bacab15080f24cde65"
   integrity sha512-EaaawMTOeEItCRvfmkI9v6rBkF1svM8wjl/YPRrg2N2Wmp+4qJYkWtJsbew1szfKKDm6fPLy4YAanBhIlf9dWw==
@@ -115,6 +110,25 @@ ajv@^6.12.4:
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
+
+allure-commandline@^2.17.2:
+  version "2.17.2"
+  resolved "https://registry.yarnpkg.com/allure-commandline/-/allure-commandline-2.17.2.tgz#48c1064973619644011092d31294834210c6c433"
+  integrity sha512-2a0M0nX1KtVrg4y0rWEFn/OQkv7AaQSMBOEtlKfQl3heZoTEo0IdB08Uk5vU390+qPsEv3EO5igjyCrS0gX+FQ==
+
+allure-js-commons@2.9.2:
+  version "2.9.2"
+  resolved "https://registry.yarnpkg.com/allure-js-commons/-/allure-js-commons-2.9.2.tgz#47a2e31d1e476aa565fd4c467e6e1f3540774f6a"
+  integrity sha512-Qvi+zMZQruklqcnqG/zHCnE209v1YiWGhO3H2aPW2aXC8Ockqd01a+w2lP4Qqp3SfC+WQDeAK2+pp+v+eNl8xQ==
+  dependencies:
+    properties "^1.2.1"
+
+allure-playwright@^2.9.2:
+  version "2.9.2"
+  resolved "https://registry.yarnpkg.com/allure-playwright/-/allure-playwright-2.9.2.tgz#27e86f37921a456632830e9c9820188ad5844aad"
+  integrity sha512-N0X1c1GGLg74vdDAuq86KCekuvQ5BaqqpgcBpJj5x3y/RlQPBn84wlg8PT/ViKQM4EdbNFMXOXpa5Opufv6qCg==
+  dependencies:
+    allure-js-commons "2.9.2"
 
 ansi-regex@^5.0.1:
   version "5.0.1"
@@ -204,7 +218,7 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-dotenv@^16.0.3:
+dotenv@^16.3.1:
   version "16.3.1"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.3.1.tgz#369034de7d7e5b120972693352a3bf112172cc3e"
   integrity sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==
@@ -214,10 +228,12 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-plugin-playwright@^0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-playwright/-/eslint-plugin-playwright-0.12.0.tgz#0c728e07c217b5ea48acef46c52eefba9cf8ebd3"
-  integrity sha512-KXuzQjVzca5irMT/7rvzJKsVDGbQr43oQPc8i+SLEBqmfrTxlwMwRqfv9vtZqh4hpU0jmrnA/EOfwtls+5QC1w==
+eslint-plugin-playwright@^0.19.0:
+  version "0.19.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-playwright/-/eslint-plugin-playwright-0.19.0.tgz#1ac454889d266f7371f1e1e7442573a5a7a79d20"
+  integrity sha512-/pk5oDxusdPnsPNo16o7kWk4Pq8e0Jw7vM0xI/G4wDHhYw1ImQpclB3fQGbjKAO1eauGRLWtJAq5l1Xq3oF16A==
+  dependencies:
+    globals "^13.23.0"
 
 eslint-scope@^7.2.2:
   version "7.2.2"
@@ -232,7 +248,7 @@ eslint-visitor-keys@^3.3.0, eslint-visitor-keys@^3.4.1, eslint-visitor-keys@^3.4
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-3.4.3.tgz#0cd72fe8550e3c2eae156a96a4dddcd1c8ac5800"
   integrity sha512-wpc+LXeiyiisxPlEkUzU6svyS1frIO3Mgxj1fdy7Pm8Ygzguax2N3Fa/D/ag1WqbOprdI+uY6wMUl8/a2G+iag==
 
-eslint@^8.41.0:
+eslint@^8.55.0:
   version "8.55.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.55.0.tgz#078cb7b847d66f2c254ea1794fa395bf8e7e03f8"
   integrity sha512-iyUUAM0PCKj5QpwGfmCAG9XXbZCWsqP/eWAWrG/W0umvjuLRBECwSFdt+rCntju0xEH7teIABPwXpahftIaTdA==
@@ -389,7 +405,7 @@ glob@^7.1.3:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-globals@^13.19.0:
+globals@^13.19.0, globals@^13.23.0:
   version "13.23.0"
   resolved "https://registry.yarnpkg.com/globals/-/globals-13.23.0.tgz#ef31673c926a0976e1f61dab4dca57e0c0a8af02"
   integrity sha512-XAmF0RjlrjY23MA51q3HltdlGxUpXPvg0GioKiD9X6HD28iMjo2dKC8Vqwm7lne4GNr78+RHTfliktR6ZH09wA==
@@ -585,7 +601,7 @@ playwright-core@1.40.1:
   resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.40.1.tgz#442d15e86866a87d90d07af528e0afabe4c75c05"
   integrity sha512-+hkOycxPiV534c4HhpfX6yrlawqVUzITRKwHAmYfmsVreltEl6fAZJ3DPfLMOODw0H3s1Itd6MDCWmP1fl/QvQ==
 
-playwright@1.40.1:
+playwright@1.40.1, playwright@^1.40.0:
   version "1.40.1"
   resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.40.1.tgz#a11bf8dca15be5a194851dbbf3df235b9f53d7ae"
   integrity sha512-2eHI7IioIpQ0bS1Ovg/HszsN/XKNwEG1kbzSDDmADpclKc7CyqkHw7Mg2JCz/bbCxg25QUPcjksoMW7JcIFQmw==
@@ -598,6 +614,11 @@ prelude-ls@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
+
+properties@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/properties/-/properties-1.2.1.tgz#0ee97a7fc020b1a2a55b8659eda4aa8d869094bd"
+  integrity sha512-qYNxyMj1JeW54i/EWEFsM1cVwxJbtgPp8+0Wg9XjNaK6VE/c4oRi6PNu5p7w1mNXEIQIjV5Wwn8v8Gz82/QzdQ==
 
 punycode@^2.1.0:
   version "2.3.1"
