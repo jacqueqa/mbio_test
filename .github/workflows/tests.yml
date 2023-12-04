@@ -21,7 +21,7 @@ jobs:
         uses: ./.github/actions/setup
 
       - name: Run tests
-        run: yarn test:e2e
+        run: yarn test:e2e:ci
         env:
           FORCE_COLOR: 2
           MB_DEMO_URL: "https://shop.mercedes-benz.com/en-au/shop/vehicle/srp/demo"
