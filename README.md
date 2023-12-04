@@ -1,7 +1,7 @@
 
 # Javascript - Tests for MB.IO
 
-Repository with exercise on automated tests using **[Playwright](https://playwright.dev/)**.
+Repository with exercise on automated tests for MB.io using **[Playwright](https://playwright.dev/)**.
 
 Tools:
 
@@ -28,6 +28,24 @@ The project also uses [Yarn](https://yarnpkg.com/), if yout don't have, please f
 
 - Install dependencies: `yarn install`
 - Run End-to-end tests: `yarn test:e2e`
+
+-----------------------
+
+### Mandatory Steps
+
+- [x] Open the Mercedes-Benz Shop used cars in Australian market.
+- [x] Fullfil the dialog input data
+- [x] Click on the filter icon
+- [x] Select Pre-Owned Tab
+- [x] Select to filter by Colour
+- [x] Navigate to the Vehicle Details of the most expensive car on the filtered results.
+- [x] Save the following car details to a file:
+    **VIN number**
+    **Model Year**
+- [x] In the side vehicle details click “Enquire Now”
+- [x] Fill the “Contact Details and Account Creation” form with invalid data. (e.g. with an invalid email format)
+- [x] Click "Proceed" and validate the error.
+
 
 -----------------------
 
