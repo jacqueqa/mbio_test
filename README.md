@@ -3,7 +3,7 @@
 
 Repository with exercise on automated tests for MB.io using **[Playwright](https://playwright.dev/)**.
 
-For this project the following stac was used
+For this project the following stack was used
 
 - JavaScript
 - Docker
