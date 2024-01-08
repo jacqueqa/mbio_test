@@ -3,13 +3,12 @@
 
 Repository with exercise on automated tests for MB.io using **[Playwright](https://playwright.dev/)**.
 
-For this project the following stack was used
+For this project, the following stack was used
 
 - JavaScript
 - Docker
 - Playwright
 
-**NOTE:**  Windows as OS with WSL
 
 -----------------------
 
@@ -17,11 +16,11 @@ For this project the following stack was used
 
 ### Node.js
 
-Make sure to have the correct Node version installed, which can be found in `.nvmrc` file in the repository root. 
+Make sure to have the correct Node version installed, which can be found in the `.nvmrc` file in the repository root. 
 
 ### Yarn
 
-The project also uses [Yarn](https://yarnpkg.com/), if yout don't have, please follow the  [installation steps](https://classic.yarnpkg.com/lang/en/docs/install/).
+The project also uses [Yarn](https://yarnpkg.com/), if you don't have one, please follow the  [installation steps](https://classic.yarnpkg.com/lang/en/docs/install/).
 
 ## To run using Docker
 
@@ -34,13 +33,13 @@ The project also uses [Yarn](https://yarnpkg.com/), if yout don't have, please f
 
 - Install dependencies: `yarn install`
 - Run End-to-end tests: `yarn test:e2e`
-- Run End-to-end tests with html report: `yarn test:e2e:html`
+- Run End-to-end tests with HTML report: `yarn test:e2e:html`
 
 -----------------------
 
 ### Mandatory Steps
 
-- [x] Open the Mercedes-Benz Shop used cars in Australian market.
+- [x] Open the Mercedes-Benz Shop used cars in the Australian market.
 - [x] Fullfil the dialog input data
 - [x] Click on the filter icon
 - [x] Select Pre-Owned Tab
@@ -50,7 +49,7 @@ The project also uses [Yarn](https://yarnpkg.com/), if yout don't have, please f
     **VIN number**
     **Model Year**
 - [x] In the side vehicle details click “Enquire Now”
-- [x] Fill the “Contact Details and Account Creation” form with invalid data. (e.g. with an invalid email format)
+- [x] Fill in the “Contact Details and Account Creation” form with invalid data. (e.g. with an invalid email format)
 - [x] Click "Proceed" and validate the error.
 
 ![image](https://github.com/jacqueqa/mbio_test/assets/77998671/0a0d1d92-73b2-48f0-bcd1-5a0bce98a0b3)
@@ -62,6 +61,4 @@ The project also uses [Yarn](https://yarnpkg.com/), if yout don't have, please f
 ### License
 
 [![License](https://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-
-- **[MIT license](http://opensource.org/licenses/mit-license.php)**
 - Copyright 2023 © <a href="https://github.com/jacqueqa" target="_blank">Jacqueline Tatiani</a>
